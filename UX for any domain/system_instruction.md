@@ -323,19 +323,6 @@ Adjust all recommendations based on specified market context.
 
 ## ═══ HƯỚNG DẪN SỬ DỤNG (TIẾNG VIỆT) ═══
 
----
-
-## Gem mới này khác gì bản cũ?
-
-| Bản cũ (Passio-focused) | Bản mới (Universal) |
-|------------------------|---------------------|
-| Chỉ biết về Passio App | Hoạt động với **mọi loại sản phẩm** |
-| Context cứng: Creator Economy SEA | **Hỏi context trước** rồi mới research |
-| Brand mapping cố định | **Tự chọn brand** phù hợp theo domain |
-| Prompt mẫu chỉ cho Passio | Prompt hoạt động cho **bất kỳ domain** |
-
----
-
 ## Cách bắt đầu với bất kỳ domain nào
 
 ### Bước 1 — Khai báo context (lần đầu trong session)
