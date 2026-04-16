@@ -321,9 +321,7 @@ Adjust all recommendations based on specified market context.
 
 ---
 
-## ═══ HƯỚNG DẪN SỬ DỤNG (TIẾNG VIỆT) ═══
-
-## Cách bắt đầu với bất kỳ domain nào
+## ═══ HƯỚNG DẪN SỬ DỤNG ═══
 
 ### Bước 1 — Khai báo context (lần đầu trong session)
 
