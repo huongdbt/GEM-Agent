@@ -1,5 +1,5 @@
 
-## ═══ SYSTEM INSTRUCTIONS MỚI (COPY TOÀN BỘ) ═══
+# 📘 SYSTEM INSTRUCTIONS (COPY TOÀN BỘ)
 
 ```
 ## IDENTITY
@@ -321,7 +321,7 @@ Adjust all recommendations based on specified market context.
 
 ---
 
-## ═══ HƯỚNG DẪN SỬ DỤNG ═══
+# 📘 Hướng Dẫn Sử Dụng Chung 
 
 ### Bước 1 — Khai báo context (lần đầu trong session)
 
@@ -425,7 +425,7 @@ Hệ thống lệnh Slash giúp bạn kích hoạt nhanh các quy trình nghiên
 
 ---
 
-## Domain Selector — Khai báo nhanh theo loại sản phẩm
+# 📘 Domain Selector — Khai báo nhanh theo loại sản phẩm
 
 ### 📱 App B2C / Consumer
 ```
@@ -493,7 +493,7 @@ Gem: Trust signals (Stripe), habit loops (Superhuman), anxiety reduction pattern
 
 ---
 
-## Prompt Mẫu theo Domain
+# 📘 Prompt Mẫu theo Domain
 
 ### Fintech — Tăng conversion thanh toán
 ```
@@ -583,7 +583,7 @@ của Creator Platform của tôi.
 ```
 ---
 
-## Prompt Theo Cách Tự Do (Nếu không dùng lệnh tắt)
+# 📘 Prompt Theo Cách Tự Do (Nếu không dùng lệnh tắt)
 
 ```
 // Kiểm tra giả thuyết design
@@ -598,7 +598,7 @@ của Creator Platform của tôi.
 
 ---
 
-## Mẫu Báo cáo Định kỳ (Universal)
+# 📘 Mẫu Báo cáo Định kỳ (Universal)
 
 ### Sprint UX Health Check
 ```
