@@ -348,6 +348,85 @@ Gem sẽ **tự áp dụng framework phù hợp** và **tự chọn brand refere
 
 ---
 
+# 📘 Hướng Dẫn Sử Dụng Hệ Thống Lệnh Slash — Universal UX Gem
+
+Hệ thống lệnh Slash giúp bạn kích hoạt nhanh các quy trình nghiên cứu UX chuyên sâu mà không cần viết prompt dài. Dưới đây là cách sử dụng từng lệnh kèm ví dụ thực tế:
+
+### 1. 🎯 Thiết lập bối cảnh (Context)
+*Trước khi bắt đầu nghiên cứu một dự án mới, hãy dùng lệnh này để Gem hiểu bạn đang làm gì.*
+- **Cú pháp:** `/context [mô tả sản phẩm/mục tiêu]`
+- **Ví dụ:** `/context Tôi đang thiết kế ứng dụng quản lý tài chính cá nhân cho gen Z tại thị trường Đông Nam Á.`
+
+### 2. 🔍 Nghiên cứu Pattern (Pattern Research)
+*Tìm kiếm cách các ông lớn trên thế giới giải quyết một bài toán thiết kế cụ thể.*
+- **Cú pháp:** `/pattern [vấn đề UI/UX]`
+- **Ví dụ:** `/pattern Cách thiết kế luồng đăng ký (Sign-up) không dùng mật khẩu (passwordless) để giảm tỷ lệ bỏ rơi.`
+
+### 3. 🛠️ Phân tích đối thủ (Teardown)
+*Mổ xẻ chi tiết một ứng dụng hoặc một tính năng để học hỏi ưu/nhược điểm.*
+- **Cú pháp:** `/teardown [tên app hoặc tính năng]`
+- **Ví dụ:** `/teardown Luồng đặt phòng của Airbnb` hoặc `/teardown App Revolut`
+
+### 4. 🗺️ Bản đồ hành trình (Journey Analysis)
+*Phân tích tâm lý và các điểm chạm của người dùng trong một luồng cụ thể.*
+- **Cú pháp:** `/journey [tên luồng người dùng]`
+- **Ví dụ:** `/journey Luồng từ lúc người dùng nhận thông báo khuyến mãi đến khi thanh toán thành công.`
+
+### 5. 📏 Đánh giá Heuristic (Expert Review)
+*Kiểm tra nhanh xem thiết kế có vi phạm các nguyên tắc UX kinh điển không.*
+- **Cú pháp:** `/review [mô tả màn hình hoặc upload ảnh]`
+- **Ví dụ:** `/review Màn hình bộ lọc tìm kiếm sản phẩm đang có quá nhiều tùy chọn gây rối mắt.`
+
+### 6. 📈 Tối ưu chuyển đổi (LIFT Model)
+*Tìm ra lý do tại sao người dùng không thực hiện hành động mục tiêu.*
+- **Cú pháp:** `/lift [tên luồng chuyển đổi]`
+- **Ví dụ:** `/lift Luồng nâng cấp từ gói miễn phí lên gói Pro (Upgrade flow).`
+
+### 7. ⚡ Insight nhanh (Quick Insight)
+*Cần một câu trả lời ngắn gọn, đi thẳng vào vấn đề.*
+- **Cú pháp:** `/quick [câu hỏi]`
+- **Ví dụ:** `/quick Có nên để nút 'Hủy đăng ký' mờ hơn nút 'Tiếp tục' không?`
+
+### 8. ⚖️ So sánh đối đầu (Compare)
+*So sánh cách hai thương hiệu giải quyết cùng một vấn đề.*
+- **Cú pháp:** `/compare [vấn đề] [brand 1] vs [brand 2]`
+- **Ví dụ:** `/compare Cách hiển thị giỏ hàng của Amazon vs Shopee.`
+
+### 9. 🎖️ Đề xuất Brand tham chiếu (Brand Recommendations)
+*Khi bạn không biết nên học hỏi từ ai.*
+- **Cú pháp:** `/brands [nhu cầu của bạn]`
+- **Ví dụ:** `/brands Tôi cần tìm các app có trải nghiệm dark mode và micro-interaction xuất sắc.`
+
+### 10. ⚠️ Đánh giá rủi ro (Risk Assessment)
+*Kiểm tra các "hố đen" UX trước khi thực hiện code/launch.*
+- **Cú pháp:** `/risk [tên tính năng/thiết kế]`
+- **Ví dụ:** `/risk Thay đổi toàn bộ kiến trúc thanh điều hướng từ cạnh bên sang thanh tab dưới bottom.`
+
+### 11. 📝 Bản tin tóm tắt (Research Brief)
+*Tóm gói lại phiên làm việc thành các hành động cụ thể cho Team.*
+- **Cú pháp:** `/brief`
+- **Kết quả:** Gem sẽ liệt kê 3 Insight quan trọng nhất + Bằng chứng Brand + Hành động cần làm ngay.
+
+### 12. ⛓️ Chạy liên hoàn (Chain Research)
+*Kết hợp nhiều phương pháp nghiên cứu cùng lúc.*
+- **Cú pháp:** `/chain [mã framework] cho [chủ đề]`
+- **Ví dụ:** `/chain C+E cho luồng thanh toán` (Chạy phân tích Hành trình + Tối ưu LIFT cho checkout).
+
+### 13. ⚖️ Luật UX (Laws of UX)
+*Áp dụng các quy luật tâm lý học hành vi.*
+- **Cú pháp:** `/law [vấn đề]` hoặc `/laws` (để xem tất cả).
+- **Ví dụ:** `/law Tại sao người dùng cảm thấy ứng dụng của tôi phản hồi chậm dù tốc độ load ổn?` (Gem sẽ dùng Luật Doherty để giải thích).
+
+### 14. ❓ Trợ giúp (Help)
+- **Cú pháp:** `/help`
+- **Kết quả:** Hiển thị danh sách tra cứu nhanh tất cả các lệnh trên.
+
+---
+> [!TIP]
+> **Mẹo nhỏ:** Bạn có thể kết hợp việc upload ảnh thiết kế của mình và gõ lệnh (ví dụ: Upload ảnh màn hình Home + gõ `/review`) để Gem đưa ra nhận xét trực quan nhất!
+
+---
+
 ## Domain Selector — Khai báo nhanh theo loại sản phẩm
 
 ### 📱 App B2C / Consumer
@@ -504,36 +583,6 @@ và Figma hiển thị performance data cho creator.
 Sau đó design direction cho Revenue Dashboard 
 của Creator Platform của tôi.
 ```
-
----
-
-## Lệnh Tắt (Slash Commands) — Nhanh & Sức Mạnh
-
-Gem giờ đây hỗ trợ hệ thống lệnh tắt (slash command). Thay vì phải viết prompt dài, bạn chỉ cần gõ lệnh. Bạn có thể sử dụng các lệnh này trực tiếp:
-
-```
-// Lấy các luật UX để giải quyết một bài toán cụ thể (hoặc xem danh sách tất cả)
-/law [Mô tả vấn đề của bạn] 
-Ví dụ: /law Làm sao để user nhớ cách dùng phần mềm phức tạp?
-Mẹo: Chỉ gõ `/laws` để bắt Gem hiển thị lại toàn bộ danh sách 30 luật UX.
-
-// Tìm pattern tham khảo từ 58 brands
-/pattern [Vấn đề UI/UX]
-Ví dụ: /pattern Cách thiết kế table hiển thị nhiều data tốt nhất
-
-// Phân tích sâu 1 app/tính năng (5 Layers)
-/teardown [Tên App hoặc tính năng]
-Ví dụ: /teardown Màn hình checkout của Stripe
-
-// Chấm điểm UX màn hình
-/auditscreen [Mô tả màn hình của bạn / Upload ảnh màn hình]
-Ví dụ: /auditscreen Đánh giá UX của Landing Page này
-
-// Tối ưu tỷ lệ chuyển đổi (LIFT Model)
-/lift [Tên flow cần tối ưu]
-Ví dụ: /lift Flow đăng ký tài khoản cho ứng dụng ngân hàng
-```
-
 ---
 
 ## Prompt Theo Cách Tự Do (Nếu không dùng lệnh tắt)
