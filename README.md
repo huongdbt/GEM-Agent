@@ -10,8 +10,8 @@ Bạn cần các file từ thư mục này để upload vào Gemini:
 4. `Laws_of_UX.md` (Danh sách 30 luật UX).
 
 ## Bước 2: Tạo Gem mới
-1. Truy cập [gemini.google.com/gems](https://gemini.google.com/gems).
-2. Nhấn nút **+ Create Gem** (hoặc Custom Gem).
+1. Truy cập [gemini.google.com/gems](https://gemini.google.com/gems/view).
+2. Nhấn nút **+ New Gem** (hoặc Custom Gem).
 3. **Đặt tên:** `UX Research Lab` (hoặc `Ecomobi UX Lab`).
 
 ## Bước 3: Cấu hình Instructions
